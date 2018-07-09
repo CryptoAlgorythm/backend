@@ -1,0 +1,34 @@
+{
+  "name": "openlaw-backend",
+  "version": "1.0.0",
+  "description": "This is the backend server to openlaw-frontend",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptoAlgorythm/openlaw-backend.git"
+  },
+  "keywords": [
+    "openlaw",
+    "backend",
+    "node",
+    "react"
+  ],
+  "author": "Lateema Spencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CryptoAlgorythm/openlaw-backend/issues"
+  },
+  "homepage": "https://github.com/CryptoAlgorythm/openlaw-backend#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "express-upload": "^0.1.0",
+    "fs": "0.0.1-security",
+    "http-errors": "^1.6.3"
+  }
+}
