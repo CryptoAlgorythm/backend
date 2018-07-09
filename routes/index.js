@@ -1,6 +1,6 @@
-var express = require('express');
-var cors = require('cors');
-var router = express.Router();
+const express = require('express');
+const cors = require('cors');
+const router = express.Router();
 
 router.use(cors());
 
